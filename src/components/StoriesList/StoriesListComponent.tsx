@@ -9,7 +9,7 @@ const StoriesListComponent: React.FC = () => {
 
     useEffect(() => {
         const fetchStories = async () => {
-            const response = await fetch('../src/utils/db_mock.json');
+            const response = await fetch('./db_mock.json');
             const data = await response.json();
             setUserData(data);
             setStories(data);
