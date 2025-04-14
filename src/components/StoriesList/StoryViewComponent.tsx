@@ -32,7 +32,7 @@ export const StoryViewer: React.FC = () => {
 
     const story = activeUser.stories[activeStoryIndex];
 
-    if(!activeUser){
+    if (!activeUser) {
         return null
     }
 
