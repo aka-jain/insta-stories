@@ -5,7 +5,7 @@ test.describe('Story Viewer Flow', () => {
     await page.goto('http://localhost:5173/');
 
     const storyThumbnail = page.locator('[data-test-id="first-story-thumb-1"]');
-    console.log(storyThumbnail)
+
     await expect(storyThumbnail).toBeVisible();
     await storyThumbnail.click();
 
