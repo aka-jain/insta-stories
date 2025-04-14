@@ -32,7 +32,7 @@ export const StoryViewer: React.FC = () => {
 
     const story = activeUser.stories[activeStoryIndex];
 
-    if (!activeUser) {
+    if(!activeUser){
         return null
     }
 
@@ -40,7 +40,7 @@ export const StoryViewer: React.FC = () => {
         <div className="fixed inset-0 z-50 bg-black flex items-center justify-center transition-opacity duration-500" data-test-id="story-viewer">
             <img
                 src={story.imageUrl}
-                className={`max-w-full max-h-full object-contain transition-transform duration-500 ${fadeOut ? 'scale-0' : 'scale-100'}`}
+                className={`max-w-full max-h-full object-contain transition-transform will-change-transform duration-500  ${fadeOut ? 'scale-0' : 'scale-100'}`}
                 alt="story"
             />
             <div className='flex gap-2 flex-col absolute w-full top-4 left-0' data-test-id={`progress-bar-${activeUser.id}`}>

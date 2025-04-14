@@ -9,7 +9,7 @@ interface ProgressProps {
 
 const Progress: React.FC<ProgressProps> = ({ activeUser, activeStoryIndex }) => {
     const [progress, setProgress] = useState(0);
-    const duration = 2000;
+    const duration = 5000;
     const interval = 100;
 
     useEffect(() => {
