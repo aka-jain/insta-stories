@@ -15,6 +15,7 @@ const StoriesListComponent: React.FC = () => {
             setStories(data);
         };
         fetchStories();
+        
     }, []);
 
     return (
