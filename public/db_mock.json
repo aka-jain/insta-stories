@@ -7,7 +7,7 @@
         "stories": [
             {
                 "id": 1,
-                "imageUrl": "./story/1.jpg"
+                "imageUrl": "./story/16.jpeg"
             },
             {
                 "id": 2,
@@ -23,14 +23,14 @@
         "stories": [
             {
                 "id": 1,
-                "imageUrl": "./story/3.png"
+                "imageUrl": "./story/17.jpeg"
             },
             {
                 "id": 2,
                 "imageUrl": "./story/4.jpeg"
             },
             {
-                "id": 1,
+                "id": 3,
                 "imageUrl": "./story/5.webp"
             }
         ]
